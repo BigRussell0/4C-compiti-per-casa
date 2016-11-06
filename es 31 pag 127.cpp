@@ -75,3 +75,42 @@ int main ()
     cout<<"il prezzo scontato è: "   
     cout<<sconto (prezzo.perc_sconto.prezzo.scontato) <<endl ; 
     return 0;}
+
+  
+  
+  
+  esercizio 49 p 128
+    #include <iostream>
+    using namespace std;
+  
+  enum mesi
+  {
+    ROSSO, GIALLO, VERDE
+  };
+  int main ()
+  {
+    return 0;
+  }
+  
+  
+  
+  
+  
+  
+  esercizio 48
+    
+     
+    #include <iostream>    
+    using namespace std;
+    enum mesi
+    {
+      gennaio=1, febbraio, marzo, aprile, maggio, giugno,
+      luglio, agosto, settembre, ottombre, novombre, dicembre
+    };
+  
+  int main ()
+  {
+    cout<<" i numeri  dei mesi di vacanza sono:  ";
+    cout<<giugno <<"   " <<luglio <<"     " <<agosto << endl ;
+    return 0;
+  }
