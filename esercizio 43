@@ -1,0 +1,47 @@
+#include <iostream>
+#include <string.h>
+using namespace std;
+char candidato1;
+char candidato2;
+int voti1;
+int voti2;
+int votanti;
+float p;
+float g;
+int votazione (int voti1, int voti2)
+{
+    int votanti;
+    cout<<"Dammi il numero dei votanti:  ";
+    cin>> votanti;
+    cout<<"Dammi i voti del candidato1: ";
+    cin>>voti1;
+    cout<<"Dammi i voti del candidato2:  ";
+    cin>>voti2;
+    float p;
+    p=(voti1/votanti)*100;
+    float g;
+    g=(voti2/votanti)*100;
+    cout<<"p";
+    cout<<"g";
+}
+int main() {
+    cout<<"Dammi il numero dei votanti:  ";
+    cin>> votanti;
+    cout<<"Dammi i voti del candidato1: ";
+    cin>>voti1;
+    cout<<"Dammi i voti del candidato2:  ";
+    cin>>voti2;
+    float p;
+    p=(voti1/votanti)*100;
+    float g;
+    g=(voti2/votanti)*100;
+    cout<<"p";
+    cout<<"g";
+    if(p>g){
+        cout<<"Il vincitore è il candidato1!!!!";
+    }
+    else {
+        cout<<"il vincitore è il candidato2!!!!";
+        }
+    return votanti;
+}
