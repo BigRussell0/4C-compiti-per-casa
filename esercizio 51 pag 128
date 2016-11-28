@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int a[10],i, conta;
+int main ()
+{
+    for(i=0; i<10; i++) {
+        cout<< "dammi il valore :  ";
+        cin>> a[i];
+        if(a[i]>5) {
+            conta++;
+
+        }
+
+        }
+    cout<<" i valori maggiori di 5 sono =" << conta;
+
+return 0;
+}
