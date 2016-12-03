@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+float temperatura f, temperatura e, elettronegatività, numero atomico, massa atomica;
+
+bool appartenenza(float temperatura f, float temperatura e, float elettronegatività, float numero atomico, float massa atomica);
+
+int main()
+{
+    cout"Dammi il numero atomico:  ";
+    cin>>numero atomico;
+    cout"Dammi l'elettronegatività:  ";
+    cin>>elettronegatività;
+}
