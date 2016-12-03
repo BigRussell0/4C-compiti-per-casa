@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+float xp, yp, q, m;
+
+bool appartenenza(float xp, float yp,float q, float m);
+
+int main()
+{
+    cout<<"Dammi il coefficiente angolare m:  ";
+    cin>>m;
+    cout<<"Dammi il valore di q:  ";
+    cin>>q;
+    cout<<"Dammi la x del punto:  ";
+    cin>>xp;
+    cout<<"Dammi la y del punto:  ";
+    cin>>yp;
+    if(appartenenza (xp, yp, q, m) )
+        cout<<"Il punto appartiene alla retta"<<'\n';
+    else
+        cout<<"il punto non appartiene alla retta"<<'\n';
+    return 0;
+}
+
+
+bool appartenenza(float xp, float yp,float q, float m){
+        return (yp == (m*xp)+q);
+
+}
